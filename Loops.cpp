@@ -6,7 +6,7 @@ using std::endl;
 int main() {
     int i=0;
     for (;;) {
-        if(i<5){
+        if(i<50){
             //condition is true
             //do nothing
         }else{
@@ -14,7 +14,7 @@ int main() {
             break;
         }
         cout<<i;
-        i=i+1;
+        i=i+3;
     }
     cout<<endl;
     return 0;
