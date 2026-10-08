@@ -25,11 +25,25 @@ int main(){
     }
 
     // if x != y make x = y
-    if(x != y) { // ~ also works for "not"
-        x=y;
-    }else {
+    if(x == y) { // ~ also works for "not"
         //do nothing
+    }else if(x>y) {
+        x = y;
+    }else if(x<y) {
+        x = y;
     }
+    // "else if" are match statements are not equvilant to if statements and will be very messy
+
+    if (x==y){
+        //do nothing
+    } else /*x does not equal y*/ {
+        if (x<y) /*check if x is less than y*/ {
+            x=y;
+        }else{
+            y=x;
+        }
+    }
+
 
     cout << "x: " << x << "y: " << y << endl;
     return 0;
