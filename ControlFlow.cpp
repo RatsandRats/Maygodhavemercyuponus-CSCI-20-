@@ -17,5 +17,20 @@ int main(){
         cout << "x is less than or equal to y" << endl;
     }
 
+    //if x is less than y this makes that difference larger, x will never equal y
+    if(x>y){
+        x=x+1;
+    }else {
+        x=x-1;
+    }
+
+    // if x != y make x = y
+    if(x != y) { // ~ also works for "not"
+        x=y;
+    }else {
+        //do nothing
+    }
+
+    cout << "x: " << x << "y: " << y << endl;
     return 0;
 }
