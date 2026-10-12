@@ -16,6 +16,9 @@ int main(){
 
     //it turns out pointers are actually quite helpful
     //actually wonderful to use
+    //this creates an array of pointers called "p" that hold 5 variables which represent the 5 "pocket" arrays
+    // {p1,p2,p3,p4,p5} hold the addresses for the previous "pocket" arrays
+    //qhwn used in the following for loop p[0] will represent p1 and so on
     int* p[5] ={p1, p2, p3, p4, p5};
 
     /*In this for loop our counter will start at i = 0.
