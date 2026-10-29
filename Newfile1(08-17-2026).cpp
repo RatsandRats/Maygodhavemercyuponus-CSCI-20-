@@ -3,12 +3,13 @@
 //Statement logic is
 
 //Function logic is
-
+using std::cout;
+using std::endl;
 //Think f(x)=y
 
 int main() { /*Takes informaion between curled brackets. This is our "f(x)"*/
 
-    std::cout << "Hello World" << std::endl;
+    cout << "Hello World" << endl;
     /*"<<" is an overloaded opperator. In this case it is making cout work and it providing an input from the right of <<*/
     /*std::endl forces display text to be at the end of the string in terminal*/
 

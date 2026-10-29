@@ -44,7 +44,7 @@ int a and int b into the pythagorean theorem equation to give us c^2.
 
 The cout << __ << endl; prints the calles values in the terminal.
 
-int main (){} won't work without return 0;*/.
+int main (){} won't work without return 0;*/
 int main() {
     int p1[2] = {1,2};
     int p2[2] = {4,3};
