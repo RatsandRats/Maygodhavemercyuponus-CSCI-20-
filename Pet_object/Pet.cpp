@@ -17,7 +17,7 @@ private:
 };
 
 //This is a bad. This fundamentally sets the data within the object, thereby poisioning all future calls for that information within the object
-/*void Pet::Bad_func(int i){
+/* void Pet::Bad_func(int i){
     size = i;
     return ;
 }*/

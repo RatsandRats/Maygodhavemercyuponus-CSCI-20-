@@ -1,15 +1,13 @@
-#include"pet.hpp"
+#include"Pet_Fix.hpp"
 
 int main(){
     Pet fido(20000, 1000, "fido");
     Pet goldie(200, 5, "goldie");
-
     cout<< fido.sameSizePet(fido, goldie) << endl;
     cout<< fido.sameNamePet(fido, goldie) << endl;
 
     return 0;
 }
-
 bool Pet::sameSizePet(Pet a, Pet b){
     if(a.size == b.size){
         return true;
