@@ -29,3 +29,7 @@ public:
     bool sameName (Derived j, Derived k);
     bool sameBreed(Derived j, Derived k);
 };
+
+int main(){
+   return 0; 
+}
